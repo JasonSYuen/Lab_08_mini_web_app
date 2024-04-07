@@ -1,0 +1,60 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border-color: royalblue;
+    padding: 10px 50px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: coral;
+    border-color: lightcoral
+}
+
+h {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    font-family: "American Typewriter", serif;
+
+
+}
+
+body {
+    background-color: aliceblue;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid black;
+    padding-right: 5px;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+input {
+    border-radius: 5px;
+    padding: 10px 10px;
+    border-color: cadetblue;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
