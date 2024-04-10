@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../static/style.css" />
+    <title>Document</title>
+</head>
+
+<body onload="getName()">
+
+    <header>
+        <div id="split">
+
+            <span>
+                <h id="welcome">Welcome</h>
+            </span>
+
+            <span>
+                <h id="university">University</h>
+            </span>
+
+            <span>
+                <h id="signout"><a href="loginpage.html"> Sign Out</a></h>
+            </span>
+        </div>
+    </header>
+
+
+    <br></br>
+    <button onclick="showMyClasses()">Show my Classes</button>
+    <table id="tb2"></table>
+
+    <!-- <a href="loginpage.html"> sign out</a> -->
+    <p id="myClasses">My Classes: </p>
+    <table id="myClassesTable">
+        <tr>
+            <th>course name</th>
+            <th>teacher name</th>
+            <th>time</th>
+            <th>capacity</th>
+            <th>enrolled</th>
+            <th>id</th>
+        </tr>
+    </table>
+
+
+    <form id="indvClass">
+        <label for="indvClassInput">See Course's Students</label>
+        <input id="indvClassInput" name="ind" autocomplete="on">
+        <button type="submit" id="indvClass">add</button>
+    </form>
+
+    <p id="indvClasses">students: </p>
+
+    <table id="myStudent">
+        <tr>
+            <th>Name</th>
+            <th>Grade</th>
+
+        </tr>
+    </table>
+
+    <form id="editGrade">
+        <label for="studentName">name</label>
+        <input id="studentName" name="studentName" autocomplete="on">
+
+        <label for="studentGrade">grade</label>
+        <input id="studentGrade" name="studentGrade" autocomplete="on">
+        <button type="submit" id="signer">publish change</button>
+    </form>
+
+
+</body>
+<script type="text/javascript" src="../static/script.js"></script>
+
+</html>
